@@ -1,0 +1,349 @@
+/*FeuilleTestCss*/
+
+body {
+  background-color: darkgray;
+
+  font-family: "Orbitron", sans-serif;
+}
+
+aside {
+  text-align: center;
+  color: bisque;
+  background-color: darkolivegreen;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav {
+  background-image: url(images/pexels-njeromin-11542516.jpg);
+
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+button {
+  color: bisque;
+  background-color: gray;
+
+  height: 50px;
+  width: 100px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+button:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+main {
+  text-align: left;
+}
+
+h3 {
+  text-align: center;
+}
+
+.p1 {
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+p {
+  font-family: "My Soul", cursive;
+}
+
+/*Articles*/
+
+.articleDisclaimer {
+  background-image: url(images/warning.jpg);
+  background-size: contain;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.introductionPartie1 {
+  background-image: url(images/palais-antique.jpg);
+  background-size: cover;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.introductionPartie2 {
+  background-image: url(images/la-nature-morte-du-casque-du-soldat.jpg);
+  background-size: cover;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.introductionPartie3 {
+  background-image: url(images/un-char-de-guerre-de-style-sombre-sur-le-champ-de-bataille.jpg);
+  background-size: cover;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.introductionPartie4 {
+  background-image: url(images/Léopard-1.jpg);
+  background-size: cover;
+  color: wheat;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.introductionPartie5 {
+  background-image: url(images/bandeau_tank_puissance-_de_feu.png);
+  background-size: cover;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.realisationPartie1 {
+  background-image: url(images/ligne-de-Bradleys.webp);
+  background-size: cover;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.realisationPartie2 {
+  background-image: url(images/industry-4674845_1280.jpg);
+  background-size: cover;
+  color: wheat;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.actualitePartie1 {
+  background-image: url(images/char-du-futur.jpg);
+  background-size: cover;
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.actualitePartie2 {
+  background-image: url(images/abrahams.webp);
+  background-size: cover;
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.evenementPartie1 {
+  background-image: url(images/la-nature-morte-du-casque-du-soldat.jpg);
+  background-size: cover;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/*FlexBox*/
+.box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid;
+  border-radius: 5px;
+  border-color: black;
+  background-color: gray;
+  margin-left: 450px;
+  margin-right: 450px;
+  gap: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.box4 {
+  background-image: url(images/épave-1.jpg);
+ 
+  padding: 15px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 30px;
+  column-gap: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.boxPicture {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.boxRef {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  font-size: 18px;
+  
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  gap: 5px;
+}
+
+/*MenuHorizontal*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  list-style-type: none;
+}
+
+nav ul::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+li {
+  float: left;
+}
+
+nav li {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+  margin: 0 auto;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: bisque;
+
+  padding: 10px 0;
+}
+
+nav a:hover {
+  color: green;
+}
+
+button {
+  color: bisque;
+  background-color: gray;
+
+  height: 50px;
+  width: 100px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+/*Menu déroulant*/
+
+.sous {
+  display: none;
+  box-shadow: 0px 1px 2px #ccc;
+  background-color: gray;
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav > ul li:hover .sous {
+  display: block;
+}
+
+.sous li {
+  float: none;
+  width: 100%;
+  text-align: left;
+}
+
+.sous a {
+  padding: 10px;
+  border-bottom: none;
+}
+
+.sous a:hover {
+  border-bottom: none;
+  background-color: darkcyan;
+}
+
+.déroulant > a::after {
+  content: "▼";
+  font-size: 12px;
+}
+
+nav ul li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  position: relative;
+}
+
+
