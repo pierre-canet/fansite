@@ -19,7 +19,7 @@
         <ul>
           <li><a href="index.html">Accueil</a></li>
 
-          <li class="déroulant">
+          <li class="deroulant">
             <a href="">La Gazette</a>
             <ul class="sous">
               <li><a href="actualite.html">Actualités</a></li>
@@ -28,7 +28,7 @@
             </ul>
           </li>
 
-          <li class="déroulant">
+          <li class="deroulant">
             <a href="">Classifications</a>
             <ul class="sous">
               <li><a href="travaux.html">1e GM</a></li>
@@ -41,10 +41,10 @@
         </ul>
       </nav>
     </header>
-    <aside>
-      <h1>Pour faire des essais</h1>
-    </aside>
-    <main class="mainActualité">
+
+    <h1>Actualités</h1>
+
+    <main class="mainActualite">
       <div class="actualitePartie1">
         <h3><u>Les chars Leclerc se blindent face aux drones</u></h3>
         <p class="p1">
@@ -58,12 +58,14 @@
           13h TF1
         </p>
         <div class="boxRef">
-          <video
-            src="Vidéos/6356519_War_Remnants_Soviet_afghan_War_3840x2160.mp4"
-            height="200px"
-            width="200px"
-            controls
-          ></video>
+          <video  height="300px" controls>
+            <source src="videos/speed-tank-mp4.mp4" type="video/mp4"/>
+            <source src="videos/speed-tank-webm.webm" type="video/webm" />
+            <p>
+              Si la vidéo n'est pas chargée par votre navigateur, voici un
+              <a href="videos/speed-tank-mp4.mp4">lien vers la vidéo</a>
+            </p>
+          </video>
         </div>
       </div>
 
@@ -100,7 +102,7 @@
         <ul>
           <li><a href="index.html">Accueil</a></li>
 
-          <li class="déroulant">
+          <li class="deroulant">
             <a href="">La Gazette</a>
             <ul class="sous">
               <li><a href="actualite.html">Actualités</a></li>
@@ -109,7 +111,7 @@
             </ul>
           </li>
 
-          <li class="déroulant">
+          <li class="deroulant">
             <a href="">Classifications</a>
             <ul class="sous">
               <li><a href="travaux.html">1e GM</a></li>
@@ -124,7 +126,7 @@
 
       <h3>D'autres références</h3>
 
-      <box class="box4">
+      <article class="box4">
         <div class="boxRef">
           <a href="https://tanks-encyclopedia.com/"
             ><img src="images/Ram-II.jpg" height="100px" width="150px"
@@ -168,7 +170,7 @@
             à l'échelle 1/72e
           </p>
         </div>
-      </box>
+      </article>
     </footer>
   </body>
 </html>

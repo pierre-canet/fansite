@@ -4,9 +4,11 @@ body {
   background-color: darkgray;
 
   font-family: "Orbitron", sans-serif;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
-aside {
+h1 {
   text-align: center;
   color: bisque;
   background-color: darkolivegreen;
@@ -107,7 +109,7 @@ p {
 }
 
 .introductionPartie4 {
-  background-image: url(images/Léopard-1.jpg);
+  background-image: url(images/Leopard-1.jpg);
   background-size: cover;
   color: wheat;
   font-size: 20px;
@@ -206,8 +208,8 @@ p {
 }
 
 .box4 {
-  background-image: url(images/épave-1.jpg);
- 
+  background-image: url(images/epave-1.jpg);
+
   padding: 15px;
   margin: 20px;
   display: flex;
@@ -236,7 +238,6 @@ p {
   padding: 20px;
   margin: 20px;
   font-size: 18px;
-  
 }
 
 .contactInfo {
@@ -334,7 +335,7 @@ nav > ul li:hover .sous {
   background-color: darkcyan;
 }
 
-.déroulant > a::after {
+.deroulant > a::after {
   content: "▼";
   font-size: 12px;
 }
@@ -345,5 +346,3 @@ nav ul li {
   text-align: center;
   position: relative;
 }
-
-
